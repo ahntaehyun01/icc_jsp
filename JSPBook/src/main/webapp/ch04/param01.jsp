@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h4>text/xml : HTML 출력</h4>
-	<h4>charset=utf-8 : 문자 인코딩</h4>
+	<h3>param 액션 태그</h3>
+	<jsp:forward page = "param01_data.jsp">
+		<jsp:param name = "id" value = "admin"/>
+		<jsp:param name = "name" value = "안태현"/>
+	</jsp:forward>
 </body>
 </html>

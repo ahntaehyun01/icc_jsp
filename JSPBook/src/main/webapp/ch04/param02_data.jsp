@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h4>text/xml : HTML 출력</h4>
-	<h4>charset=utf-8 : 문자 인코딩</h4>
+	<%
+		String title = request.getParameter("title");
+	%>
+	<h3><%= title %></h3>
+	오늘의 날짜 : <%=request.getParameter("date") %>
 </body>
 </html>

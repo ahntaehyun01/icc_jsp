@@ -7,7 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h4>text/xml : HTML 출력</h4>
-	<h4>charset=utf-8 : 문자 인코딩</h4>
+	<p> 아이디 : <%=request.getParameter("id") %>
+		<%
+		String name = request.getParameter("name");
+		%>
+		
+	<p> 이 름 : <%=name %>	
 </body>
 </html>

@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h4>text/xml : HTML 출력</h4>
-	<h4>charset=utf-8 : 문자 인코딩</h4>
+로그인을 실패했습니다.
+<p> <a href="./response01.jsp">로그인 가기</a>
 </body>
 </html>
